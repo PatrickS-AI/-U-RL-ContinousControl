@@ -5,7 +5,9 @@
 ### Environment
 The task in this project is to train a reinforcement learning agent to control a double jointed arm with a hand at the top. The agent is supposed to move the hand to a goal location defined by the environment and highlighted by a green sphere. The agent receives a reward of +0.1 for each time step that the agents hand is in the target position.
 
-![alt text](content/env_screenshot.gif)
+<p align="center">
+	<img src="content/reacher_env.gif" width=50% height=50%>
+</p>
 
 There are two types of environements available. One environment does only contain a single arm, while the second environment contains 20 arms that need to be controlled and trained in parallel.
 
